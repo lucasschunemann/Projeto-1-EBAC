@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+header{
+    padding: 16px 0;
+    background-color: darkslateblue;
+    color: white;
+
+}
+
+header nav li a{
+    display: inline;
+    margin-left: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img{
+    height: 24px;
+}
+
+.brands-list li{
+    display: inline;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section p{
+    margin-bottom: 8px
+}
+
+section .container{
+    display: flex;
+    justify-content: space-between;
+}
